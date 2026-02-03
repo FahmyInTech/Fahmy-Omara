@@ -2033,6 +2033,23 @@ textarea.form-control {
 }
 
 /* ============================================
+   Contact Section - Mobile Centering Fix
+   ============================================ */
+@media (max-width: 768px) {
+    .contact-content {
+        justify-items: center;
+    }
+
+    .contact-info,
+    .contact-form-card {
+        width: 100%;
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ============================================
    Responsive Adjustments
    ============================================ */
 @media (max-width: 640px) {
